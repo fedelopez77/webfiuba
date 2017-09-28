@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Federico Lopez @ fi.uba.ar</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-social.css">
+    <link type="text/css" rel="stylesheet" href="css/customstyles.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body style="background:#f1f1f1;">
+
+    <div id="navbardiv"></div>
+
+    <div class="container">
+        <h1><strong>Projects</strong></h1>
+        <br>
+        
+        <div class="panel panel-default" style="background:white;">
+            <div class="panel-body" style="padding: 10px 15px">
+                <ul>
+                    <h3 style="margin-top: 10px"><li>Summa NLP - Summarizer</li></h3>
+                    <p style="text-align: justify;text-justify: inter-word;">
+                        Summa is a text summarizer developed as a Software Engeneering final project. It uses an improvement of the TextRank algorithm introduced by Rada Mihalcea and Paul Tarau on their paper: TextRank: Bringing Order Into Texts. 
+                        Summa is open source software released under the MIT License. Its entire source code is hosted on github. 
+                        <ul>
+                            <li><a href="https://github.com/summanlp/textrank" target="_blank">Repository</a></li>
+                            <li><a href="https://pypi.python.org/pypi/summa" target="_blank">PyPI Package</a></li>
+                            <li><a href="http://44jaiio.sadio.org.ar/sites/default/files/asai65-72.pdf" target="_blank">Variations of the Similarity Function of TextRank for Automated Summarization</a></li>
+                        </ul>
+                    </p>
+                    <br>
+
+                    <h3 style="margin-top: 10px"><li>Gensim contribution</li></h3>
+                    <p style="text-align: justify;text-justify: inter-word;">
+                        The open-sourced text summarization module was integrated to the Gensim natural language framework, included in the 0.12.0 release.
+                        <ul>
+                            <li><a href="https://radimrehurek.com/gensim/" target="_blank">Gensim Package</a></li>
+                            <li><a href="https://github.com/summanlp/gensim" target="_blank">Repository</a></li>
+                        </ul>
+                    </p>
+                </ul>
+            </div>
+        </div>
+        <br>
+
+        <div id="contactdiv"></div>
+        <br>
+    </div>
+
+    <div id="footerdiv"></div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script> 
+        $(function(){
+            $("#navbardiv").load("navbar.html");
+            $("#contactdiv").load("contact.html");
+            $("#footerdiv").load("footer.html"); 
+        });
+    </script> 
+
+</body>
+</html>
